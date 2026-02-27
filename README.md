@@ -21,3 +21,14 @@ The image is processed manually by:
 3. Map darker pixels → denser characters (`@`, `#`, `%`)  
 4. Map lighter pixels → thinner characters (`.`, ` `)  
 5. Adjust output width to maintain aspect ratio  
+
+
+---
+
+## Why This Approach?
+
+- No external ASCII converter libraries  
+- Full control over brightness-to-character mapping  
+- Adjustable width scaling  
+- Terminal friendly  
+- GitHub Markdown compatible  
